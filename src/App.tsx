@@ -4,13 +4,13 @@ function App() {
   const [state, setState] = useState({
     advice: "",
   });
+  const fetchAdvice = async () => {
+    const data = await fetch("https://api.adviceslip.com/advice").then((data) =>
+      data.json()
+    );
+    setState(data.slip);
+  };
   useEffect(() => {
-    const fetchAdvice = async () => {
-      const data = await fetch(
-        "https://api.adviceslip.com/advice"
-      ).then((data) => data.json());
-      setState(data.slip);
-    };
     fetchAdvice();
   }, []);
 
@@ -18,8 +18,8 @@ function App() {
     <div className={"app"}>
       <div className="card">
         <h1 className={"heading"}>{state.advice}</h1>
-        <button className={"button"}>
-          <span>Give me ADVICE!</span>
+        <button className={"button"} onClick={fetchAdvice}>
+          <span>Give me a ADVICE!</span>
         </button>
       </div>
     </div>

@@ -15,6 +15,7 @@
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
+  "homepage": "https://automedon.github.io/Random-Advice-for-a-better-life/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
