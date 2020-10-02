@@ -13,8 +13,17 @@ function App() {
     };
     fetchAdvice();
   }, []);
-  console.log(state);
-  return <h1>{state.advice}</h1>;
+
+  return (
+    <div className={"app"}>
+      <div className="card">
+        <h1 className={"heading"}>{state.advice}</h1>
+        <button className={"button"}>
+          <span>Give me ADVICE!</span>
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default App;
