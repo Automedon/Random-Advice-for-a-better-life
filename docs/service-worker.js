@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Random-Advice-for-a-better-life/precache-manifest.5625ffafc7a09adfebb1cecf2b85e286.js"
+  "/Random-Advice-for-a-better-life/precache-manifest.eb8dc7482b923575217d94dc63e888c2.js"
 );
 
 self.addEventListener('message', (event) => {

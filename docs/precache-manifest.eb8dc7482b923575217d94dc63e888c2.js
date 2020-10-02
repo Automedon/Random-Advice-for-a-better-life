@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95a6d23d5411fdc8dfa2e42135394498",
+    "revision": "a1db93ecfa8168556654c65b9c46b531",
     "url": "/Random-Advice-for-a-better-life/index.html"
   },
   {
-    "revision": "dbaa06adbbb6536df53e",
-    "url": "/Random-Advice-for-a-better-life/static/css/main.fd02ec07.chunk.css"
+    "revision": "11d3a1271fb3a9ea021c",
+    "url": "/Random-Advice-for-a-better-life/static/css/main.8b47b1bc.chunk.css"
   },
   {
     "revision": "3396d9c1dda458a18f15",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Random-Advice-for-a-better-life/static/js/2.5c0f8555.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbaa06adbbb6536df53e",
-    "url": "/Random-Advice-for-a-better-life/static/js/main.63d39c15.chunk.js"
+    "revision": "11d3a1271fb3a9ea021c",
+    "url": "/Random-Advice-for-a-better-life/static/js/main.8f64d20f.chunk.js"
   },
   {
     "revision": "2bd5a82cf9ccb7dabaac",
